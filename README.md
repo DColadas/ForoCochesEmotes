@@ -7,4 +7,5 @@ From a command line:
 ```
 pip install -r requirements.txt   # Install used libraries
 python emotes.py   # (or chmod +x emotes.py; ./emotes.py)
+python convert.py  # (or chmod +x convert.py; ./convert.py)
 ```

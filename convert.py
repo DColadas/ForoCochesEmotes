@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# Scale and convert every GIF in a folder to PNG/APNG files.
+
 import os
 import shutil
 import glob
