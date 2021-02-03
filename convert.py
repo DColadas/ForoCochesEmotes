@@ -48,7 +48,7 @@ def decompose(image: Image, name: str, newSize: Optional[Tuple[int, int]] = None
         try:
             imageName = f"{TEMP_ROUTE}/{name}_{frame}.png"
             nameList.append(imageName)
-            if size is not None:
+            if newSize is not None:
                 im = image.resize(newSize)
                 im.save(imageName)
             else:
